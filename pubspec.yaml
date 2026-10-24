@@ -1,0 +1,20 @@
+name: bismillah_pos
+description: Bismillah Samosa Point POS & Khata App
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  path: ^1.9.0
+  path_provider: ^2.1.0
+  sqflite: ^2.3.0
+  sqflite_common_ffi: ^2.3.0
+  qr_flutter: ^4.1.0
+  barcode_widget: ^2.0.0
+  share_plus: ^7.1.0
+
+flutter:
+  uses-material-design: true
